@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <h1>Criando um Carousel</h1>
+            
+            <div id="carrossel" class="carousel slide" data-ride="carousel" data-interval="3000">
+                
+                <ol class="carousel-indicators">
+                    <li data-target="#carrossel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carrossel" data-slide-to="1"></li>
+                    <li data-target="#carrossel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://unsplash.it/1280/720?random">
+                        <div class="carousel-caption">
+                            <h3>Imagem 1</h3>
+                            <p>Slide bem dahora mesmo</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://unsplash.it/1281/720?random">
+                        <div class="carousel-caption">
+                            <h3>Imagem 2</h3>
+                            <p>Slide bem dahora mesmo</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://unsplash.it/1282/720?random">
+                        <div class="carousel-caption">
+                            <h3>Imagem 3</h3>
+                            <p>Slide bem dahora mesmo</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <a class="left carousel-control" href="#carrossel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carrossel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        
+        </div>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
